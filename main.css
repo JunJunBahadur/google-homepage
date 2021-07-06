@@ -1,3 +1,8 @@
+.mainbody {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 .first {
     box-sizing: border-box;
     display: flex;
@@ -14,6 +19,12 @@
 .third {
     box-sizing: border-box;
     padding-top: 30px;
+}
+.fourth {
+    flex-grow: 1;
+}
+.fifth {
+    flex-shrink: 0;
 }
 html,body {
     height:100%;
@@ -111,4 +122,19 @@ body {
 .languages p {
     font-family: arial,sans-serif;
     font-size: 12px;
+}
+.footercards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    border: 1px solid #dfe1e5;
+    background: #f2f2f2;
+    height: 35px;
+}
+.footercards a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
 }
