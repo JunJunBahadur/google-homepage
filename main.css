@@ -1,9 +1,18 @@
+.first {
+    box-sizing: border-box;
+}
 .second {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 92px;
     max-height: 290px;
     height: calc(100% - 560px);
+}
+.third {
+    box-sizing: border-box;
+    padding-top: 30px;
 }
 html,body {
     height:100%;
@@ -11,17 +20,15 @@ html,body {
 .google-icon {
     max-height: 92px;
     height: 100%;
-    position: relative;
     margin-top: auto;
+    position: relative;
 }
 .search-bar {
     display: flex;
     justify-content: baseline;
     align-items: center;
-
     border: 1px solid #dfe1e5;
     border-radius: 50px;
-
     margin: 0 auto;
     height: 45px;
     width: 575px;
@@ -63,9 +70,6 @@ html,body {
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
-}
-.third {
-    padding-top: 30px;
 }
 .thirdinner {
     padding-top: 20px;
